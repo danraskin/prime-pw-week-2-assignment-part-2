@@ -144,6 +144,9 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //FIX colorTwo = 'purple';
+      // (did not reset colorTwo) 
+
 }
 */
 
@@ -155,6 +158,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+
+//FIX if (temp > 39 && time >= 4) {
+    //(conditional currently evaluates if temp is greater than 39 OR if time is greater or equal to 4. needs to evaluate if BOTH conditions are true.)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -168,6 +174,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+
+//FIX if(age >= minAge) {}
+    // (conditional reverses prompt. currently bars 21 year olds from enteing venue.)
 if(minAge <= age) {
   console.log('no entry');
 } else {
