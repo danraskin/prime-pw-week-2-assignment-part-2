@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// 36. creates variable 'name' and give it a string value 'Dane'
+// 38. conditional statement evaluates variable type (string?) and value of 'name.' If name is Mary, logs a direct address in console. If name is not Mary, logs a general address.
 // 
 //
 
@@ -46,9 +46,12 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // 
-// 
-// 
-//
+// 58. creates variable secret but does not give it a value
+// 60. creates variable code and gives it number value 123
+// 59. conditional statement evalutes if code is number variable with a value of 123.
+// 62. if true, value of secret is set to string 'super' AND code is set to new value of 123*2
+// 67. if code is greater than 250, secret is set to sring 'duper.' 
+// 71. logs value of secret. if code were set to a number other than 123 but less than 250, secret would remain undefined.
 
 //CODE
 /*
@@ -71,8 +74,13 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // 
-// 
-// 
+// 83. set variable isStudent to boolean true
+// 84. set variable age to 34
+// 85. set variable zip to (my age and zip! *uncanny*)
+// 92. conditional: if student is true and zip is number variable with value greater than 8000, logs 'west coast'
+// 94. if student is boolean false OR age is less than 30, logs the 'hobbies' question
+// 96. if student student is boolean true, but first conditional statement returns FALSE becuase zip code is less than 80000, logs 'welcome'
+// 98. if first three conditions were to return FALSE, logs 'weather.' this would happen if isStudent were other than boolean value.
 //
 
 //CODE
